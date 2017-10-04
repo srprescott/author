@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Marck+Script|Merienda|Satisfy|Special+Elite|Bellefair');
+
+*{
+    overflow-x: hidden;
+    margin:0;
+}
+
+/*        SECTION ONE         */
+
+.background{
+    height:80%;
+    width:100%;
+    position:absolute;
+    box-shadow: 0 0 20px #1E0C01;
+}
+
+/*        AREA ONE         */
+.areaOne{
+    font-family: 'Merienda', cursive;
+    font-size:5em;
+    height:610px;;
+}
+
+.areaOne div p{
+    position:relative;
+    color:#F6C06C;
+    text-shadow: -2px -2px 2px #1E0C01;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+
+/*        AREA TWO         */
+.areaTwo{
+    font-family: 'Alegreya', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.areaTwo p{
+    position:relative;
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    
+    margin: 0 10px 0 10px;
+    height:145px;
+    width:460px;
+    color:#1E0C01;
+    font-size: 1.3em;
+    
+}
+
+
+.line{
+    border: 0;
+    border-top: 1px solid #1E0C01;
+    border-bottom: 1px solid #fff;
+}
+
+/*        SECTION TWO         */
+
+.two{
+    color:#1E0C01;
+    font-family: 'Alegreya', serif;
+    font-size: 1.3em;
+    margin:20px;
+    background-color: #F6C06C;
+    box-shadow: 0 0 15px #1E0C01;
+}
+.areaThree{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top:50px;
+    
+}
+
+.para p{
+    padding: 20px 50px 0 50px;
+}
+
+
+/*        SECTION THREE         */
+
+.three{
+    color:#1E0C01;
+    font-family: 'Alegreya', serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+h1{
+    font-size: 2em;
+    height:100px;
+    
+}
+
+h2{
+    font-size:.8em;
+    color:#99552F;
+    height:40px;
+    
+}
+
+.project p{
+    width:600px;
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:50px;
+    font-size: 1.4em;
+    border:1px solid #99552F;
+}
+
+span{
+    font-weight: bold;
+    font-size:2.2em;
+    padding-top:25px;
+}
+
+.books{
+    padding:50px;
+}
+
+.bookp{
+    padding: 10px 50px 50px 50px;
+}
+
+
+/*        MEDIA QUERY         */
+@media screen and (min-width: 320px) and (max-width:580px) {
+ #page{
+ background: url("images/background.jpg") repeat-x;}}
+
+
+@media screen and (max-width:959px) {
+    .container-fluid{
+        width:100%;
+        font-size:1em;
+}  
+    body{
+        width:100%;
+        font-size:1em;
+    }
+    .areaTwo{
+        width:100%;
+        font-size:1em;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid{
+        width:100%;
+}  
+    body{
+        width:100%;
+    }
+    .introp{
+        font-size:.5em;
+    }
+    .areaTwo{
+        width:100%;
+        font-size:1em;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid{
+        width:320px;
+}  
+    body{
+        width:100%;
+    }
+    .introp{
+        font-size:.5em;
+    }
+    .areaTwo{
+        width:100%;
+        font-size:4em;
+    }
+    
+}
+
+
+
+
+
+
